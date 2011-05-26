@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+    <info organisation="com.embedly" module="embedly-api"/>
+    
+    <configurations defaultconfmapping="default->default">
+        <conf name="default" />
+	</configurations>
+	
+	<publications>
+    	<artifact name="embedly-api" type="jar"  conf="default" ext="jar"/>    	
+    </publications>
+    
+    <dependencies>
+		<dependency org="org.json" name="json" rev="20090211" />
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.0-beta2" />
+		<dependency org="commons-lang" name="commons-lang" rev="2.5" />		
+    </dependencies>
+</ivy-module>
